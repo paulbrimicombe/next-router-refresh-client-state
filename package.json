@@ -1,0 +1,16 @@
+{
+  "name": "next-router-refresh-client-state",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "test": "No tests"
+  },
+  "author": "Paul Brimicombe",
+  "license": "UNLICENSED",
+  "description": "A minimal reproduction of a bug in Next JS where client state is lost when router.refresh() is called",
+  "dependencies": {
+    "next": "^14.2.0-canary.24"
+  }
+}
